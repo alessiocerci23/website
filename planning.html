@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>    
+    <title>Planning</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Planning">
+    <meta name="description" content="Planning del trabajo">     
+  </head>
+  
+  <body>
+   
+	<header>
+	<div style="overflow:hidden">
+	<div style="float:left"><img src="logo.png"></div>
+	<div style=""><center><p style="font-size:50px">Estructura básica de html5 (etiquetas, atributos y valores)</p></center></div>
+	</div>
+	</header>
+	
+	<br><br><br>
+	
+	<h1><b>a) Objetivo del sitio </b></h1>
+	<h2><b>General</b></h2>
+	<p>Conocer, distinguir y manejar el lenguaje de maquetación html5 en un nivel básico y aprender su estructura 
+	<h2><b>Objetivo específico 1</b></h2>
+	¿Cuál es la diferencia de Html con los demás lenguajes, y por qué es tan importante?
+	<h2><b>Objetivo específico 2</b></h2>
+	Distinguir el cuerpo base de un documento Html
+	<h2><b>Objetivo específico 3</b></h2>
+	Realizar ejemplos de etiquetas y valores usados
+	<br>
+	<br>
+	<br>
+
+	<h1><b>b) Materiales </b></h1>
+	HTML5 y su estructura básica – PHP paso a paso  <a href="https://rolandocaldas.com/php/html5-estructura-basica" target="_blank">LINK</a>
+	<br>
+	HTML5 desde CERO!!! - #01 INTRODUCCIÓN 🎙️ Curso HTML5   <a href="https://www.youtube.com/watch?v=QwMlgfMK6fQ" target="_blank">LINK</a>
+	<br>
+	<br>
+	<br>
+	
+	<h1><b>c) Contenido </b></h1>
+	
+	Html es el lenguaje de maquetación, no es declarado como lenguaje de programación debido a que funciona solamente para el front
+	de las páginas web, es decir lo que puede ver el usuario, por lo tanto es sumamente importante, y se suele acompañar con
+	estilos y efectos para personalizar y hacer más agradable la experiencia de usuario, con CSS, JAVASCRIPT y otros más lenguajes.
+	
+	<h3>HTML5, lo básico</h3>
+    HTML5 es la versión 5 del lenguaje de marcado HTML. Un documento escrito en HTML tiene una estructura básica como la siguiente:
+	<br>
+	
+	<--!DOCTYPE html> <br>
+    <--html lang="es"> <br>
+	<-head> <br>
+		<-meta charset="utf-8" /> <br>
+		<-title>Hola Mundo!<-/title> <br>
+	<-/head> <br>
+	<-body> <br>
+		<-h1>Hola Mundo!<-/h1> <br>
+	<-/body> <br>
+    <-/html>  <br>
+	
+	<br>
+	
+	
+	<ul>
+	<li><-!DOCTYPE html> Lo primero que nos encontramos es la declaración del tipo de documento que se está mostrando. 
+	El DOCTYPE variará según el tipo de documento realizado, en nuestro ejemplo hemos utilizado el doctype del HTML5 que es maravillosamente sencillo.</li>
+	<li>html Tras declarar el tipo de documento, indicamos que iniciamos nuestro documento HTML. Esta etiqueta se cierra cuando finalizamos el documento.
+    Vemos que lleva un atributo lang, esto sirve para indicar el idioma del documento (en nuestro caso español)</li>
+    <li>head En un documento HTML tenemos una cabecera dónde colocaremos los metadatos de la página, el código JavaScript y 
+	el CSS que utilizará el navegador para renderizar la página.</li>
+	<li>meta charset Obligatorio en HTML5, informa el juego de caracteres del documento, debería ser siempre utf-8. 
+	Como todo metadato debe ir dentro del head</li>
+	<li>title Es un tipo de metadato especial que nos proporciona el título de la página. Por motivos 
+	de posicionamiento (SEO) se recomienda que el meta title sea parecido al H1 del documento y a la URL de la página.</li>
+    <li>body En su interior tendremos el contenido de la página.</li>
+	</ul>
+	
+	<br>
+	
+	<h3>HTML5, lo nuevo</h3>
+	HTML5 ha venido a solucionar, entre otras cosas, la falta de un criterio para definir el contenido semántico de una página web agregando
+	una serie de etiquetas destinadas a facilitar la estructura del documento desde el punto de vista de su significado.
+	
+	<br>
+	
+	<ul>
+	<li>section: Esta etiqueta sirve para agrupar elementos relacionados entre sí de forma temática. Los section creados a nivel
+	del body serán aquellos cuyo contenido de significado a la página, o sea, formen el contenido principal de la misma.</li>
+	<li>article: Esta etiqueta es «la última etiqueta con significado semántico». Habitualmente se utiliza dentro de un section 
+	para separar las unidades de contenido con significado semántico.</li>
+	<li>header: Creada para incluir información destinada a ayudar en la navegación. Suele incluir un H1 y, de declararse a nivel de body, 
+	la etiqueta nav.</li>
+	<li>nav: Esta etiqueta la utilizaremos para incluir el menú de navegación.</li>
+	<li>footer: Destinada a incluir la información sobre el elemento que lo contiene (autoría, propiedad, enlaces…)</li>
+    <li>aside: Su uso indicado es para agrupar el contenido a visualizar en la página, pero que no forma parte del contenido principal de la página.</li>
+	</ul>
+	
+	<br>
+	<br>
+	<h3>Algunos ejemplos básicos de etiquetas html son: </h3>
+	<br>
+	
+	<h1>Esto es un h1</h1>
+	<h2>Esto es un h2</h2>
+	<h3>Esto es un h3</h3>
+	<h4>Esto es un h4</h4>
+	<h5>Esto es un h5</h5>
+	
+	<br>
+	
+	lo siguiente es un hr
+	<hr>
+	
+	<br>
+	
+	<p style="text-align:center">Texto centrado</p>
+	<p style="text-align: left">Texto a la izquierda</p>
+	<p style="text-align: right">Texto a la derecha</p>
+	
+	<br>
+	una imagen en el centro
+	<center><img src="imagen.jpg"></center>
+	
+	<center><h2>COMO EXISTEN MUCHAS MÁS ETIQUETAS!!!</h2></center>
+	
+  </body>
+  
+</html
